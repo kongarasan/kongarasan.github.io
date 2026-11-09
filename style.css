@@ -144,3 +144,8 @@ em{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:400
 }
 @media (max-width:560px){.bento{grid-template-columns:1fr}.b-card.tall,.b-card.wide{grid-column:auto}.acc details>div{padding-left:0}.acc summary{grid-template-columns:40px 1fr 30px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.gh{display:inline-block;margin-top:10px;font:500 .8rem 'JetBrains Mono',monospace;color:var(--lime);border-bottom:1px solid currentColor}
+.nav>.pill-btn:not(.dark){margin-left:auto;margin-right:8px;background:rgba(255,255,255,.65);backdrop-filter:blur(14px)}
+.nav nav{margin-left:auto}
+@media (max-width:900px){.nav>.pill-btn:not(.dark){display:none}}
